@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Octicons-cloud-upload.svg/1200px-Octicons-cloud-upload.svg.png");
+    background-size: contain;
+}
+.input{
+    display: none;
+}
+.down{
+    position: relative;
+}
+.newImage{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+.close{
+    position: absolute;
+    left: 170px;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    background-image: url("https://cdn3.iconfinder.com/data/icons/pyconic-icons-1-2/512/close-512.png");
+    background-size: cover;
+    display:none;
+}
